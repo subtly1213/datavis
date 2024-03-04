@@ -1,9 +1,9 @@
 import pandas as pd
 import jieba
-from matplotlib import pyplot as plt  # 绘图，数据可视化，点状图、柱状图等科学绘图
-from wordcloud import WordCloud  # 词云，形成有遮罩效果的
-from PIL import Image  # 图像处理
-import numpy as np  # 矩阵运算
+from matplotlib import pyplot as plt
+from wordcloud import WordCloud
+from PIL import Image
+import numpy as np
 from matplotlib import colors
 
 data = pd.read_csv('danmu.csv', header=0, encoding="utf-8-sig")
